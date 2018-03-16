@@ -1,0 +1,20 @@
+--cpu Cortex-M3
+".\objects\tutorial.o"
+".\objects\mylcd.o"
+".\objects\glcd_fonts.o"
+".\objects\glcd_mcbstm32c.o"
+"C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\RTOS\RTX\LIB\ARM\RTX_CM3.lib"
+".\objects\rtx_conf_cm.o"
+".\objects\spi_stm32f10x.o"
+".\objects\retarget_io.o"
+".\objects\misc.o"
+".\objects\stm32f10x_rcc.o"
+".\objects\stm32f10x_spi.o"
+".\objects\dma_stm32f10x.o"
+".\objects\gpio_stm32f10x.o"
+".\objects\startup_stm32f10x_cl.o"
+".\objects\system_stm32f10x.o"
+--strict --scatter ".\Objects\tutorial.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\tutorial.map" -o .\Objects\tutorial.axf
