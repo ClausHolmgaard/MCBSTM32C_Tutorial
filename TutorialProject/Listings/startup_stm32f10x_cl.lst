@@ -572,11 +572,10 @@ o -I.\RTE\Device\STM32F107VC -I.\RTE\_Target_1 -IC:\Keil_v5\ARM\PACK\ARM\CMSIS\
 -IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\RTOS\RTX\INC -IC:\Keil_v5\ARM\PACK\
 Keil\MDK-Middleware\7.6.0\Board -IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\
 Boards\Keil\MCBSTM32C\Common -IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Dev
-ice\Include -IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Dri
-ver\inc -IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver --predefine="
-__RTX SETA 1" --predefine="__UVISION_VERSION SETA 525" --predefine="_RTE_ SETA 
-1" --predefine="STM32F10X_CL SETA 1" --list=.\listings\startup_stm32f10x_cl.lst
- RTE\Device\STM32F107VC\startup_stm32f10x_cl.s
+ice\Include -IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver --predefi
+ne="__RTX SETA 1" --predefine="__UVISION_VERSION SETA 525" --predefine="_RTE_ S
+ETA 1" --predefine="STM32F10X_CL SETA 1" --list=.\listings\startup_stm32f10x_cl
+.lst RTE\Device\STM32F107VC\startup_stm32f10x_cl.s
 
 
 

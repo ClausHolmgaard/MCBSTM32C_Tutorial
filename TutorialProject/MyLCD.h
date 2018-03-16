@@ -6,7 +6,7 @@
 #ifndef __MY_LCD_H
 #define __MY_LCD_H
 
-//void InitDisplay(void);
+void InitDisplay(void);
 void Display(void);
 
 #endif

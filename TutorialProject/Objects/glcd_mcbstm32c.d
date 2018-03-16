@@ -9,11 +9,6 @@
 .\objects\glcd_mcbstm32c.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h
 .\objects\glcd_mcbstm32c.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h
 .\objects\glcd_mcbstm32c.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h
-.\objects\glcd_mcbstm32c.o: .\RTE\Device\STM32F107VC\stm32f10x_conf.h
-.\objects\glcd_mcbstm32c.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h
-.\objects\glcd_mcbstm32c.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h
-.\objects\glcd_mcbstm32c.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h
-.\objects\glcd_mcbstm32c.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\misc.h
 .\objects\glcd_mcbstm32c.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Boards\Keil\MCBSTM32C\Common\GLCD_Config.h
 .\objects\glcd_mcbstm32c.o: C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.6.0\Board\Board_GLCD.h
 .\objects\glcd_mcbstm32c.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Driver\Include\Driver_SPI.h

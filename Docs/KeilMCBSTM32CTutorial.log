@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.3.14)  15 MAR 2018 07:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.3.14)  16 MAR 2018 16:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -326,169 +326,309 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [1
 
 {c:/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<pics/NewProject.png, id=34, 252.945pt x 81.906pt>
+<pics/NewProject.png, id=35, 252.945pt x 81.906pt>
 File: pics/NewProject.png Graphic file (type png)
 <use pics/NewProject.png>
-Package pdftex.def Info: pics/NewProject.png  used on input line 60.
+Package pdftex.def Info: pics/NewProject.png  used on input line 61.
 (pdftex.def)             Requested size: 276.00105pt x 89.37325pt.
-<pics/SelectDevice.png, id=36, 470.9595pt x 355.92975pt>
+<pics/SelectDevice.png, id=37, 470.9595pt x 355.92975pt>
 File: pics/SelectDevice.png Graphic file (type png)
 <use pics/SelectDevice.png>
-Package pdftex.def Info: pics/SelectDevice.png  used on input line 69.
+Package pdftex.def Info: pics/SelectDevice.png  used on input line 70.
 (pdftex.def)             Requested size: 276.00105pt x 208.59552pt.
  [1 <./pics/NewProject.png> <./pics/SelectDevice.png>]
-<pics/MRTSetVariant.png, id=48, 622.12425pt x 191.5155pt>
+<pics/MRTSetVariant.png, id=49, 622.12425pt x 191.5155pt>
 File: pics/MRTSetVariant.png Graphic file (type png)
 <use pics/MRTSetVariant.png>
-Package pdftex.def Info: pics/MRTSetVariant.png  used on input line 81.
+Package pdftex.def Info: pics/MRTSetVariant.png  used on input line 82.
 (pdftex.def)             Requested size: 276.00105pt x 84.96841pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 86.
+(Font)              <7> on input line 87.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 86.
-<pics/BasicRuntimeSelection.png, id=49, 652.839pt x 302.93175pt>
+(Font)              <5> on input line 87.
+<pics/BasicRuntimeSelection.png, id=50, 652.839pt x 302.93175pt>
 File: pics/BasicRuntimeSelection.png Graphic file (type png)
 <use pics/BasicRuntimeSelection.png>
-Package pdftex.def Info: pics/BasicRuntimeSelection.png  used on input line 89.
+Package pdftex.def Info: pics/BasicRuntimeSelection.png  used on input line 90.
 
 (pdftex.def)             Requested size: 276.00105pt x 128.07173pt.
-<pics/AddNewFile.png, id=50, 330.63525pt x 222.8325pt>
+<pics/AddNewFile.png, id=51, 330.63525pt x 222.8325pt>
 File: pics/AddNewFile.png Graphic file (type png)
 <use pics/AddNewFile.png>
-Package pdftex.def Info: pics/AddNewFile.png  used on input line 100.
+Package pdftex.def Info: pics/AddNewFile.png  used on input line 101.
 (pdftex.def)             Requested size: 155.24895pt x 104.63268pt.
-<pics/AddNewFileDialog.png, id=51, 512.51476pt x 326.4195pt>
+<pics/AddNewFileDialog.png, id=52, 512.51476pt x 326.4195pt>
 File: pics/AddNewFileDialog.png Graphic file (type png)
 <use pics/AddNewFileDialog.png>
-Package pdftex.def Info: pics/AddNewFileDialog.png  used on input line 104.
+Package pdftex.def Info: pics/AddNewFileDialog.png  used on input line 105.
 (pdftex.def)             Requested size: 155.24895pt x 98.87791pt.
  [2 <./pics/MRTSetVariant.png> <./pics/BasicRuntimeSelection.png> <./pics/AddNe
 wFile.png> <./pics/AddNewFileDialog.png>]
-<pics/ProjectStructure1.png, id=65, 216.81pt x 90.3375pt>
+<pics/ProjectStructure1.png, id=66, 216.81pt x 90.3375pt>
 File: pics/ProjectStructure1.png Graphic file (type png)
 <use pics/ProjectStructure1.png>
-Package pdftex.def Info: pics/ProjectStructure1.png  used on input line 115.
+Package pdftex.def Info: pics/ProjectStructure1.png  used on input line 116.
 (pdftex.def)             Requested size: 172.5pt x 71.8786pt.
-<pics/tutorial_c_basic.png, id=66, 287.27325pt x 101.78024pt>
+<pics/tutorial_c_basic.png, id=67, 287.27325pt x 101.78024pt>
 File: pics/tutorial_c_basic.png Graphic file (type png)
 <use pics/tutorial_c_basic.png>
-Package pdftex.def Info: pics/tutorial_c_basic.png  used on input line 124.
+Package pdftex.def Info: pics/tutorial_c_basic.png  used on input line 125.
 (pdftex.def)             Requested size: 155.24895pt x 55.00552pt.
-<pics/BasicCompile.png, id=67, 455.90324pt x 124.66576pt>
+<pics/BasicCompile.png, id=68, 455.90324pt x 124.66576pt>
 File: pics/BasicCompile.png Graphic file (type png)
 <use pics/BasicCompile.png>
-Package pdftex.def Info: pics/BasicCompile.png  used on input line 128.
+Package pdftex.def Info: pics/BasicCompile.png  used on input line 129.
 (pdftex.def)             Requested size: 155.24895pt x 42.45236pt.
-<pics/TargetOptions.png, id=68, 166.82326pt x 25.89674pt>
+<pics/TargetOptions.png, id=69, 166.82326pt x 25.89674pt>
 File: pics/TargetOptions.png Graphic file (type png)
 <use pics/TargetOptions.png>
-Package pdftex.def Info: pics/TargetOptions.png  used on input line 137.
+Package pdftex.def Info: pics/TargetOptions.png  used on input line 138.
 (pdftex.def)             Requested size: 172.5pt x 26.77943pt.
-<pics/ResetAndRun.png, id=69, 232.4685pt x 119.2455pt>
+<pics/ResetAndRun.png, id=70, 232.4685pt x 119.2455pt>
 File: pics/ResetAndRun.png Graphic file (type png)
 <use pics/ResetAndRun.png>
-Package pdftex.def Info: pics/ResetAndRun.png  used on input line 145.
+Package pdftex.def Info: pics/ResetAndRun.png  used on input line 146.
 (pdftex.def)             Requested size: 172.5pt x 88.48955pt.
-<pics/load.png, id=70, 171.039pt x 37.94176pt>
+<pics/load.png, id=71, 171.039pt x 37.94176pt>
 File: pics/load.png Graphic file (type png)
 <use pics/load.png>
-Package pdftex.def Info: pics/load.png  used on input line 154.
+Package pdftex.def Info: pics/load.png  used on input line 155.
 (pdftex.def)             Requested size: 103.50105pt x 22.96031pt.
-<pics/loadOk.png, id=71, 599.841pt x 111.41624pt>
+<pics/loadOk.png, id=72, 599.841pt x 111.41624pt>
 File: pics/loadOk.png Graphic file (type png)
 <use pics/loadOk.png>
-Package pdftex.def Info: pics/loadOk.png  used on input line 158.
+Package pdftex.def Info: pics/loadOk.png  used on input line 159.
 (pdftex.def)             Requested size: 207.0021pt x 38.44884pt.
  [3 <./pics/ProjectStructure1.png> <./pics/tutorial_c_basic.png> <./pics/BasicC
 ompile.png> <./pics/TargetOptions.png> <./pics/ResetAndRun.png> <./pics/load.pn
 g> <./pics/loadOk.png>] [4]
-<pics/Xtal.png, id=92, 287.27325pt x 154.176pt>
+<pics/Xtal.png, id=93, 287.27325pt x 154.176pt>
 File: pics/Xtal.png Graphic file (type png)
 <use pics/Xtal.png>
-Package pdftex.def Info: pics/Xtal.png  used on input line 175.
+Package pdftex.def Info: pics/Xtal.png  used on input line 176.
 (pdftex.def)             Requested size: 155.24895pt x 83.322pt.
-<pics/DebugCoreClock.png, id=93, 175.857pt x 111.41624pt>
+<pics/DebugCoreClock.png, id=94, 175.857pt x 111.41624pt>
 File: pics/DebugCoreClock.png Graphic file (type png)
 <use pics/DebugCoreClock.png>
-Package pdftex.def Info: pics/DebugCoreClock.png  used on input line 179.
+Package pdftex.def Info: pics/DebugCoreClock.png  used on input line 180.
 (pdftex.def)             Requested size: 155.24895pt x 98.36621pt.
-<pics/RuntimeDebug.png, id=94, 738.96075pt x 302.3295pt>
+<pics/RuntimeDebug.png, id=95, 738.96075pt x 302.3295pt>
 File: pics/RuntimeDebug.png Graphic file (type png)
 <use pics/RuntimeDebug.png>
-Package pdftex.def Info: pics/RuntimeDebug.png  used on input line 189.
+Package pdftex.def Info: pics/RuntimeDebug.png  used on input line 190.
 (pdftex.def)             Requested size: 276.00105pt x 112.92119pt.
  [5 <./pics/Xtal.png> <./pics/DebugCoreClock.png> <./pics/RuntimeDebug.png>]
-<pics/TraceSetup.png, id=104, 465.53925pt x 298.11375pt>
+<pics/TraceSetup.png, id=105, 465.53925pt x 298.11375pt>
 File: pics/TraceSetup.png Graphic file (type png)
 <use pics/TraceSetup.png>
-Package pdftex.def Info: pics/TraceSetup.png  used on input line 200.
+Package pdftex.def Info: pics/TraceSetup.png  used on input line 201.
 (pdftex.def)             Requested size: 276.00105pt x 176.74077pt.
-<pics/ThreadStackSize.png, id=105, 409.53pt x 231.86626pt>
+<pics/ThreadStackSize.png, id=106, 409.53pt x 231.86626pt>
 File: pics/ThreadStackSize.png Graphic file (type png)
 <use pics/ThreadStackSize.png>
-Package pdftex.def Info: pics/ThreadStackSize.png  used on input line 210.
+Package pdftex.def Info: pics/ThreadStackSize.png  used on input line 211.
 (pdftex.def)             Requested size: 276.00105pt x 156.27298pt.
  [6 <./pics/TraceSetup.png> <./pics/ThreadStackSize.png>]
-<pics/PrintfMain.png, id=115, 286.671pt x 162.6075pt>
+<pics/PrintfMain.png, id=116, 286.671pt x 162.6075pt>
 File: pics/PrintfMain.png Graphic file (type png)
 <use pics/PrintfMain.png>
-Package pdftex.def Info: pics/PrintfMain.png  used on input line 222.
+Package pdftex.def Info: pics/PrintfMain.png  used on input line 223.
 (pdftex.def)             Requested size: 276.00105pt x 156.56044pt.
-<pics/StartDebugger.png, id=116, 193.9245pt x 34.32825pt>
+<pics/StartDebugger.png, id=117, 193.9245pt x 34.32825pt>
 File: pics/StartDebugger.png Graphic file (type png)
 <use pics/StartDebugger.png>
-Package pdftex.def Info: pics/StartDebugger.png  used on input line 230.
+Package pdftex.def Info: pics/StartDebugger.png  used on input line 231.
 (pdftex.def)             Requested size: 172.5pt x 30.53578pt.
  [7 <./pics/PrintfMain.png> <./pics/StartDebugger.png>]
-<pics/DebugWindow.png, id=125, 336.0555pt x 430.60875pt>
+<pics/DebugWindow.png, id=126, 336.0555pt x 430.60875pt>
 File: pics/DebugWindow.png Graphic file (type png)
 <use pics/DebugWindow.png>
-Package pdftex.def Info: pics/DebugWindow.png  used on input line 240.
+Package pdftex.def Info: pics/DebugWindow.png  used on input line 241.
 (pdftex.def)             Requested size: 276.00105pt x 353.67966pt.
-<pics/RunDebugSession.png, id=126, 200.54926pt x 30.71475pt>
+<pics/RunDebugSession.png, id=127, 200.54926pt x 30.71475pt>
 File: pics/RunDebugSession.png Graphic file (type png)
 <use pics/RunDebugSession.png>
-Package pdftex.def Info: pics/RunDebugSession.png  used on input line 248.
+Package pdftex.def Info: pics/RunDebugSession.png  used on input line 249.
 (pdftex.def)             Requested size: 172.5pt x 26.41884pt.
  [8 <./pics/DebugWindow.png> <./pics/RunDebugSession.png>]
-<pics/DebugOutput.png, id=135, 208.3785pt x 106.59825pt>
+<pics/DebugOutput.png, id=136, 208.3785pt x 106.59825pt>
 File: pics/DebugOutput.png Graphic file (type png)
 <use pics/DebugOutput.png>
-Package pdftex.def Info: pics/DebugOutput.png  used on input line 258.
+Package pdftex.def Info: pics/DebugOutput.png  used on input line 259.
 (pdftex.def)             Requested size: 172.5pt x 88.24391pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 288.
  [9 <./pics/DebugOutput.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 288.
+<pics/LEDRuntime.png, id=143, 740.7675pt x 452.28975pt>
+File: pics/LEDRuntime.png Graphic file (type png)
+<use pics/LEDRuntime.png>
+Package pdftex.def Info: pics/LEDRuntime.png  used on input line 271.
+(pdftex.def)             Requested size: 276.00105pt x 168.51782pt.
+<pics/LCDSPISetup.png, id=144, 418.56375pt x 249.93375pt>
+File: pics/LCDSPISetup.png Graphic file (type png)
+<use pics/LCDSPISetup.png>
+Package pdftex.def Info: pics/LCDSPISetup.png  used on input line 279.
+(pdftex.def)             Requested size: 276.00105pt x 164.80423pt.
+ [10 <./pics/LEDRuntime.png> <./pics/LCDSPISetup.png>]
+<pics/LCDProject.png, id=153, 210.7875pt x 188.50426pt>
+File: pics/LCDProject.png Graphic file (type png)
+<use pics/LCDProject.png>
+Package pdftex.def Info: pics/LCDProject.png  used on input line 290.
+(pdftex.def)             Requested size: 137.9979pt x 123.41222pt.
+LaTeX Font Info:    Try loading font information for OML+cmss on input line 302
+.
+LaTeX Font Info:    No file OMLcmss.fd. on input line 302.
+
+
+LaTeX Font Warning: Font shape `OML/cmss/m/n' undefined
+(Font)              using `OML/cmm/m/it' instead
+(Font)              for symbol `textless' on input line 302.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 315--320
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 325
+.
+LaTeX Font Info:    No file OMScmss.fd. on input line 325.
+
+LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbraceleft' on input line 325.
+
+[11 <./pics/LCDProject.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 337--343
+
+ []
+
+[12]
+<pics/I2CChipSelect.png, id=214, 405.9165pt x 155.3805pt>
+File: pics/I2CChipSelect.png Graphic file (type png)
+<use pics/I2CChipSelect.png>
+Package pdftex.def Info: pics/I2CChipSelect.png  used on input line 371.
+(pdftex.def)             Requested size: 155.24895pt x 59.42691pt.
+<pics/LISCSHigh.png, id=215, 296.307pt x 190.311pt>
+File: pics/LISCSHigh.png Graphic file (type png)
+<use pics/LISCSHigh.png>
+Package pdftex.def Info: pics/LISCSHigh.png  used on input line 375.
+(pdftex.def)             Requested size: 155.24895pt x 99.71439pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 364--379
+
+ []
+
+<pics/I2CRuntime.png, id=216, 679.94025pt x 349.305pt>
+File: pics/I2CRuntime.png Graphic file (type png)
+<use pics/I2CRuntime.png>
+Package pdftex.def Info: pics/I2CRuntime.png  used on input line 384.
+(pdftex.def)             Requested size: 276.00105pt x 141.78754pt.
+<pics/I2CPinsDiagram.png, id=219, 289.08pt x 188.50426pt>
+File: pics/I2CPinsDiagram.png Graphic file (type png)
+<use pics/I2CPinsDiagram.png>
+Package pdftex.def Info: pics/I2CPinsDiagram.png  used on input line 396.
+(pdftex.def)             Requested size: 155.24895pt x 101.23564pt.
+<pics/PB89I2C1.png, id=220, 464.937pt x 299.31825pt>
+File: pics/PB89I2C1.png Graphic file (type png)
+<use pics/PB89I2C1.png>
+Package pdftex.def Info: pics/PB89I2C1.png  used on input line 400.
+(pdftex.def)             Requested size: 155.24895pt x 99.9491pt.
+[13 <./pics/I2CChipSelect.png> <./pics/LISCSHigh.png> <./pics/I2CRuntime.png>]
+<pics/I2CConfig.png, id=230, 399.29175pt x 183.68625pt>
+File: pics/I2CConfig.png Graphic file (type png)
+<use pics/I2CConfig.png>
+Package pdftex.def Info: pics/I2CConfig.png  used on input line 409.
+(pdftex.def)             Requested size: 276.00105pt x 126.97066pt.
+
+[14 <./pics/I2CPinsDiagram.png> <./pics/PB89I2C1.png> <./pics/I2CConfig.png>]
+<pics/AccProject.png, id=240, 216.81pt x 259.56975pt>
+File: pics/AccProject.png Graphic file (type png)
+<use pics/AccProject.png>
+Package pdftex.def Info: pics/AccProject.png  used on input line 423.
+(pdftex.def)             Requested size: 120.7521pt x 144.56987pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 428--432
+
+ []
+
+
+Overfull \hbox (4.65115pt too wide) in paragraph at lines 460--462
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[15 <./pics/AccProject.png>]
+Overfull \hbox (10.20117pt too wide) in paragraph at lines 463--464
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 477.
+
+Overfull \hbox (4.65115pt too wide) in paragraph at lines 479--480
+[][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (4.65115pt too wide) in paragraph at lines 490--491
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (15.75119pt too wide) in paragraph at lines 497--498
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (65.70135pt too wide) in paragraph at lines 508--509
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[16]
+Overfull \hbox (93.45145pt too wide) in paragraph at lines 514--515
+[][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[17]
+Overfull \hbox (49.0513pt too wide) in paragraph at lines 592--594
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 603.
+[18]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 603.
  (./KeilMCBSTM32CTutorial.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 288.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 288.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 603.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 603.
 Package rerunfilecheck Info: File `KeilMCBSTM32CTutorial.out' has not changed.
 (rerunfilecheck)             Checksum: 1DE43CD69C4B1E575CA44AC02C61B9C1;243.
 
 
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 288.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 603.
  ) 
 Here is how much of TeX's memory you used:
- 7598 strings out of 492982
- 117689 string characters out of 6136225
- 224641 words of memory out of 5000000
- 11059 multiletter control sequences out of 15000+600000
- 7925 words of font info for 28 fonts, out of 8000000 for 9000
+ 8144 strings out of 492982
+ 125629 string characters out of 6136225
+ 254661 words of memory out of 5000000
+ 11373 multiletter control sequences out of 15000+600000
+ 8844 words of font info for 31 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,9n,49p,343b,468s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,9n,49p,363b,1680s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/tex
-live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2017/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2017/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2017/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmsy10.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmti10.pfb>
-Output written on KeilMCBSTM32CTutorial.pdf (10 pages, 1280861 bytes).
+live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2017/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2017/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2017/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr9.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmss9.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
+b><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texl
+ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on KeilMCBSTM32CTutorial.pdf (19 pages, 2083544 bytes).
 PDF statistics:
- 176 PDF objects out of 1000 (max. 8388607)
- 109 compressed objects within 2 object streams
- 35 named destinations out of 1000 (max. 500000)
- 156 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 506 PDF objects out of 1000 (max. 8388607)
+ 404 compressed objects within 5 object streams
+ 250 named destinations out of 1000 (max. 500000)
+ 206 words of extra memory for PDF output out of 10000 (max. 10000000)
 

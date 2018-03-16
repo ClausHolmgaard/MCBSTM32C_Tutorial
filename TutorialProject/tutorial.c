@@ -2,25 +2,20 @@
 #include "cmsis_os.h"
 
 #include "MyLCD.h"
+#include "MyAccelerometer.h"
 
-#include "Board_GLCD.h"
-#include "GLCD_Config.h"
+osThreadId TID_Accelerometer;
 
-extern GLCD_FONT GLCD_Font_16x24;
-
-void InitDisplay(void) {
-	printf("Init display\r\n");
-	GLCD_Initialize         ();
-  GLCD_SetBackgroundColor (GLCD_COLOR_BLUE);
-  GLCD_SetForegroundColor (GLCD_COLOR_WHITE);
-  GLCD_ClearScreen        ();
-  GLCD_SetFont            (&GLCD_Font_16x24);
-}
+osThreadDef(I2CHandler, osPriorityNormal, 1, 0);
 
 int main(void) {
 	
 	InitDisplay();
-	printf("Testing\r\n");
-
+	I2C_Initialize();
+	
+	Display();
+	
+	TID_Accelerometer = osThreadCreate(osThread(I2CHandler), NULL);
+	
 	while(1);
 }
