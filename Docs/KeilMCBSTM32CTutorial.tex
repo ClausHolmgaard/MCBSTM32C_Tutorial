@@ -438,12 +438,12 @@ and go through it after.\\
 #define __ACCELEROMETER_H
 
 typedef struct _ACCELEROMETER_STATE {
-int8_t x;
-int8_t y;
-int8_t z;
+    int8_t x;
+    int8_t y;
+    int8_t z;
 } ACCELEROMETER_STATE;
 
-#define ACCELEROMETER_ADDR 			0x1C
+#define ACCELEROMETER_ADDR 		0x1C
 
 #define CTRL_REG1             	0x20
 #define OUT_X                 	0x29
@@ -467,8 +467,14 @@ void I2CHandler(void const *arg);
 
 #endif
 \end{lstlisting}
+The first new thing is the definition of \textit{\_ACCELEROMETER\_STATE}, it's
+used as a convenience when getting the state of the accelerometer.\\
+Following we define the registers we want to use, this will improve readability
+of the code.\\
+Then there's definitions needed for the I2C communication with the accelerometer.
+And finally there's prototypes.
 
-\vspace{2mm}
+\vspace{4mm}
 \textit{MyAccelerometer.c}
 \begin{lstlisting}
 #include "MyAccelerometer.h"
@@ -480,9 +486,9 @@ void I2C_Initialize(void) {
     ptrI2C->Control(ARM_I2C_BUS_CLEAR, 0);
 
     I2C_WriteBuf(CTRL_REG1, 0x47);
-    }
+}
 
-    int32_t I2C_WriteBuf (uint8_t reg, uint8_t val) {
+int32_t I2C_WriteBuf (uint8_t reg, uint8_t val) {
     uint8_t data[2];
 
     data[0] = reg;
@@ -522,7 +528,7 @@ int32_t I2C_ReadBuf (uint32_t addr, uint8_t *buf, uint32_t len) {
         return -1;
     }
 
-return 0;
+    return 0;
 }
 
 int32_t Accelerometer_GetState (ACCELEROMETER_STATE *pState) {
@@ -531,10 +537,10 @@ int32_t Accelerometer_GetState (ACCELEROMETER_STATE *pState) {
     int8_t x;
     int8_t y;
     int8_t z;
-        
+    
     I2C_ReadBuf(OUT_X, &val, 1);
     x = (int8_t)val;
-
+    
     I2C_ReadBuf(OUT_Y, &val, 1);
     y = (int8_t)val;
 
@@ -544,7 +550,7 @@ int32_t Accelerometer_GetState (ACCELEROMETER_STATE *pState) {
     pState->x = x;
     pState->y = y;
     pState->z = z;
-        
+    
     return 0;
 }
 
@@ -568,8 +574,90 @@ void I2CHandler(void const *arg) {
     }
 }
 \end{lstlisting}
+I'll explain this function by function.\\
+\\
+\textbf{\textit{I2C\_Initialize}}\\
+The first lines, using members of \textit{ptrl2C}, is setting up I2C in the chip.
+The last lines, using \textit{I2C\_WriteBuf}, is changing the \textit{CTRL\_REG1}
+on the accelerometer chip.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth]{pics/ctrl_reg1.png}
+    \caption{LIS302DL CTRL\_REG1.}
+    \label{fig:ctrl_reg1}
+\end{figure}
+In particular, we are interested in the PD bit, so the accelerometer won't be in
+power down mode.\\
+\\
+\textbf{\textit{I2C\_ReadBuf}} this is used to read a register from the accelerometer.
+There's two things we need to know, how the LIS302DL is expecting communication to happen, 
+and how the I2C driver is handling communication. The first us found in the LIS302DL datasheet.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth]{pics/I2CRead.png}
+    \caption{LIS302DL I2C read.}
+    \label{fig:I2CRead}
+\end{figure}
+And the second in the CMSIS I2C driver documentaion.
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.45\linewidth}
+        \includegraphics[width=\linewidth]{pics/I2CMasterTransmit.png}
+        \caption{I2C MasterTransmit.}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.45\linewidth}
+        \includegraphics[width=\linewidth]{pics/I2CMasterReceive.png}
+        \caption{I2C MasterReceive.}
+    \end{subfigure}
+    \label{fig:I2CDriverCommunation}
+\end{figure}
+I wont list every acronym here, but refer to the documentation instead.
+What is important is that we find, that we need to do a MasterTransmit of the address
+we want to read, followed by a MasterReceive to get the data. Finally get the amount
+of transfered data, to make sure we got what we expected. Between each operation, 
+we wait for the I2C bus to stop beeing busy.\\
+\\
+\textbf{\textit{I2C\_WriteBuf}} this will write information to an address on the LIS302DL.
+Looking in the documentation we find the following.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth]{pics/I2CWrite.png}
+    \caption{LIS302DL I2C read.}
+    \label{fig:I2CRead}
+\end{figure}
+Looking at the \textit{MasterTransmit} method, we find we just need to transmit two bytes, 
+the register we want to write to, and the value we want to write.
+This is what this method does. Again we check to see if the amount of transfered data 
+is as expected, and between each operation we wait for the I2C bus to not be busy.\\
+\\
+At this point it's worth making a few notes about the CMSIS I2C driver implementation 
+and documentation. While someone expirienced in embedded programming might have
+no trouble follwing the documentation, and getting a working result, there might be 
+some confusion for someone new. First of all, the sending and receiving of acknowledge 
+packages is not explicit in the documentation, this makes it a bit harder to match 
+the LIS302DL tables to the CMSIS I2C driver specification. Secondly, and more confusing for me, 
+are how the read/write addresses are handled.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth]{pics/I2CRWPatterns.png}
+    \caption{LIS302DL I2C RW Patterns.}
+    \label{fig:I2CRWPatterns}
+\end{figure}
+Looking in the table above, I would expect using the address 00111000(38h) when 
+doing write operations using \textit{MasterTransmit}, and 00111001(39h) when doing 
+read operations using \textit{MasterReceive}. This is not the case. The I2C driver 
+handles the read/write bit, making the address used for both operations 11100(1Ch).\\
+\\
+\textbf{\textit{Accelerometer\_GetState}} This will use the \textit{I2C\_ReadBuf} method 
+from before to get the x, y and z values from the accelerometer, and fill the into 
+a \textit{ACCELEROMETER\_STATE} struct.\\
+\\
+\textbf{\textit{I2CHandler}} is the thread that will be running, and handling all 
+I2C communication with the accelerometer. First we read the 0x0F(WHO\_AM\_I) register, 
+where we expect to recieve 0x3B. Then we run a loop where the information from the 
+accelerometer is recieved and printed using \textit{printf}.
 
-\vspace{2mm}
+\vspace{4mm}
 \textit{main.c}
 \begin{lstlisting}
     #include <stdio.h>
@@ -594,10 +682,10 @@ void I2CHandler(void const *arg) {
         while(1);
     }
 \end{lstlisting}
+I wont say much about this. A few methods from our display and I2C code is called, 
+and the I2C thread is started.
 
 \vspace{2mm}
-Starting with \textit{MyAccelerometer.h}.\\
-The first new thing is the definition of \textit{\_ACCELEROMETER\_STATE}, it's
-used as a convenience when getting the state of the accelerometer.
+
 
 \end{document}

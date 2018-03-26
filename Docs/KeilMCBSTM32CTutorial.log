@@ -1,13 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.3.14)  16 MAR 2018 16:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.3.14)  26 MAR 2018 14:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/Claus/Documents/Mercantec/Controller/tutorial/Docs/KeilMCBSTM32CTuto
-rial.tex
-
-(c:/Users/Claus/Documents/Mercantec/Controller/tutorial/Docs/KeilMCBSTM32CTutor
-ial.tex
+**c:/git/tutorial/Docs/KeilMCBSTM32CTutorial.tex
+(c:/git/tutorial/Docs/KeilMCBSTM32CTutorial.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (c:/texlive/2017/texmf-dist/tex/latex/base/article.cls
@@ -246,6 +243,9 @@ LaTeX Warning: Label `fig:ResetAndRun' multiply defined.
 
 
 LaTeX Warning: Label `fig:StartDebugger' multiply defined.
+
+
+LaTeX Warning: Label `fig:I2CRead' multiply defined.
 
 )
 \openout1 = `KeilMCBSTM32CTutorial.aux'.
@@ -560,43 +560,106 @@ Overfull \hbox (10.20117pt too wide) in paragraph at lines 463--464
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 477.
+(Font)              <9> on input line 483.
 
-Overfull \hbox (4.65115pt too wide) in paragraph at lines 479--480
+Overfull \hbox (4.65115pt too wide) in paragraph at lines 485--486
 [][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (4.65115pt too wide) in paragraph at lines 490--491
+Overfull \hbox (4.65115pt too wide) in paragraph at lines 496--497
 [][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (15.75119pt too wide) in paragraph at lines 497--498
-[][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (65.70135pt too wide) in paragraph at lines 508--509
+Overfull \hbox (15.75119pt too wide) in paragraph at lines 503--504
 [][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 [16]
-Overfull \hbox (93.45145pt too wide) in paragraph at lines 514--515
+Overfull \hbox (65.70135pt too wide) in paragraph at lines 514--515
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (93.45145pt too wide) in paragraph at lines 520--521
 [][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 [17]
-Overfull \hbox (49.0513pt too wide) in paragraph at lines 592--594
+<pics/ctrl_reg1.png, id=374, 416.15475pt x 265.59225pt>
+File: pics/ctrl_reg1.png Graphic file (type png)
+<use pics/ctrl_reg1.png>
+Package pdftex.def Info: pics/ctrl_reg1.png  used on input line 585.
+(pdftex.def)             Requested size: 276.00105pt x 176.15462pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 577--588
+
+ []
+
+<pics/I2CRead.png, id=375, 413.74574pt x 58.41824pt>
+File: pics/I2CRead.png Graphic file (type png)
+<use pics/I2CRead.png>
+Package pdftex.def Info: pics/I2CRead.png  used on input line 597.
+(pdftex.def)             Requested size: 276.00105pt x 38.97153pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 589--600
+
+ []
+
+[18 <./pics/ctrl_reg1.png>]
+<pics/I2CMasterTransmit.png, id=400, 482.40225pt x 348.1005pt>
+File: pics/I2CMasterTransmit.png Graphic file (type png)
+<use pics/I2CMasterTransmit.png>
+Package pdftex.def Info: pics/I2CMasterTransmit.png  used on input line 605.
+(pdftex.def)             Requested size: 155.24895pt x 112.0265pt.
+<pics/I2CMasterReceive.png, id=401, 504.08325pt x 343.2825pt>
+File: pics/I2CMasterReceive.png Graphic file (type png)
+<use pics/I2CMasterReceive.png>
+Package pdftex.def Info: pics/I2CMasterReceive.png  used on input line 609.
+(pdftex.def)             Requested size: 155.24895pt x 105.72504pt.
+<pics/I2CWrite.png, id=402, 416.15475pt x 61.4295pt>
+File: pics/I2CWrite.png Graphic file (type png)
+<use pics/I2CWrite.png>
+Package pdftex.def Info: pics/I2CWrite.png  used on input line 624.
+(pdftex.def)             Requested size: 276.00105pt x 40.74323pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 614--627
+
+ []
+
+<pics/I2CRWPatterns.png, id=403, 413.74574pt x 112.0185pt>
+File: pics/I2CRWPatterns.png Graphic file (type png)
+<use pics/I2CRWPatterns.png>
+Package pdftex.def Info: pics/I2CRWPatterns.png  used on input line 642.
+(pdftex.def)             Requested size: 276.00105pt x 74.72893pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 628--645
+
+ []
+
+[19 <./pics/I2CRead.png> <./pics/I2CMasterTransmit.png> <./pics/I2CMasterReceiv
+e.png> <./pics/I2CWrite.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 646--659
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 646--659
+
+ []
+
+[20 <./pics/I2CRWPatterns.png>]
+Overfull \hbox (49.0513pt too wide) in paragraph at lines 680--682
 [][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 603.
-[18]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 603.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 691.
+[21]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 691.
  (./KeilMCBSTM32CTutorial.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 603.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 603.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 691.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 691.
 Package rerunfilecheck Info: File `KeilMCBSTM32CTutorial.out' has not changed.
 (rerunfilecheck)             Checksum: 1DE43CD69C4B1E575CA44AC02C61B9C1;243.
 
@@ -606,29 +669,30 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 603.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 691.
  ) 
 Here is how much of TeX's memory you used:
- 8144 strings out of 492982
- 125629 string characters out of 6136225
- 254661 words of memory out of 5000000
- 11373 multiletter control sequences out of 15000+600000
- 8844 words of font info for 31 fonts, out of 8000000 for 9000
+ 8190 strings out of 492982
+ 126440 string characters out of 6136225
+ 251661 words of memory out of 5000000
+ 11403 multiletter control sequences out of 15000+600000
+ 9511 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,9n,49p,363b,1680s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,9n,49p,324b,1680s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/tex
-live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2017/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2017/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2017/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr9.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmss9.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
-b><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texl
-ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on KeilMCBSTM32CTutorial.pdf (19 pages, 2083544 bytes).
+live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><c:/texlive/20
+17/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2017/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2017/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2017/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr17.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr9.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.
+pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/t
+exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/201
+7/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on KeilMCBSTM32CTutorial.pdf (22 pages, 2353231 bytes).
 PDF statistics:
- 506 PDF objects out of 1000 (max. 8388607)
- 404 compressed objects within 5 object streams
- 250 named destinations out of 1000 (max. 500000)
- 206 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 541 PDF objects out of 1000 (max. 8388607)
+ 423 compressed objects within 5 object streams
+ 258 named destinations out of 1000 (max. 500000)
+ 236 words of extra memory for PDF output out of 10000 (max. 10000000)
 
